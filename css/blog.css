@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Permanent+Marker&family=Revalia&family=Rouge+Script&family=Shojumaru&family=WDXL+Lubrifont+SC&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(217, 218, 195);
+}
+
+nav {
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 15px 60px;
+    z-index: 1000;  
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav > div {
+    display: flex;
+    align-items: center;
+    color: beige;
+    gap: 20px;
+    font-family: "Shojumaru", sans-serif;
+    font-size: 32px;
+}
+
+nav > ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(209, 221, 231);   
+    border-radius: 32px;
+    height: 44px;
+    align-items: center;
+    padding: 3px 18px;
+    gap: 45px;
+    font-size: 18px;
+    color: black;
+    margin-right: 77px ;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-family:"ZCOOL KuaiLe",  sans-serif ;
+}
+
+.hero {
+    padding-top: 8%;
+    color: rgb(33, 33, 32);
+}
+
+.hero > h1 {
+    font:600;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    padding: 15px 60px;
+    font-size: 56px;
+}
+
+.hero > p {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color:  rgb(90, 90, 88);
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: space-around;
+}
+
+
+
+.blog-card {
+    overflow: auto;
+    border-radius: 44px;
+    background-color: rgb(29, 27, 25);
+    color: beige;
+    width: 25%;
+    box-shadow: 12px 10px rgb(140, 130, 130);
+    height: 60vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+    transform: scale(1.05) rotate(3deg);
+}
+
+.blog-card img {
+    width: 100%;
+}
+
+.blog-content {
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 20px;
+    font-family: 'Jost';
+}
