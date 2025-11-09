@@ -33,7 +33,9 @@ nav a {
 }
 
 .intro {
-    background-image: url("#");
+    background-image: url("../imh/depositphotos_197176726-stock-photo-top-view-various-makeup-tools.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     padding-top: 5%;
 }
@@ -73,16 +75,17 @@ nav a {
 .name_price {
     display: flex;
     justify-content: space-between;
+    align-items: center;  
+    margin-bottom: 20px; 
+    padding: 8px 0;    
+    border-bottom: 1px solid rgba(0,0,0,0.1);  
 }
 
-.name > h1 {
-    padding-bottom: 15px;
-    
-}
-
+.name_price h1, 
 .name_price p {
-    padding: 5px;
-    font-size: 400;
+    font-size: 18px;
+    line-height: 1.2;  
+    margin: 0;         
 }
 
 .name_price {
@@ -94,7 +97,5 @@ nav a {
     padding-bottom: 15px;
 }
 
-.name_price p {
-    padding: 5px;
-    font-size: 400;
-}
+
+

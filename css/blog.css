@@ -99,10 +99,13 @@ nav > ul {
     box-shadow: 12px 10px rgb(140, 130, 130);
     height: 60vh;
     transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    /* outline: 0px solid transparent; */
 }
 
 .blog-card:hover {
-    transform: scale(1.05) rotate(3deg);
+    transform: scale(1.05) rotate(2deg);
+    overflow-y: scroll;
 }
 
 .blog-card img {
@@ -114,4 +117,5 @@ nav > ul {
     padding-right: 5px;
     padding-top: 20px;
     font-family: 'Jost';
+
 }
